@@ -59,7 +59,7 @@ nav {
 .shopping-cart-icon {
     width: 10%;
     margin-right: 6%;
-    margin-bottom: 0.4%;
+    margin-bottom: -0.4%;
     position: relative;
     display: inline-block;
 
@@ -73,10 +73,10 @@ nav {
 
 .shopping-cart-icon h6 {
     height: 50%;
-    width: 30px;
+    width: 35px;
     font-size: 20px;
     position: absolute;
-    inset-inline-start: 2%;
+    inset-inline-start: 0;
     inset-block-start: -90%;
     background-color: rgb(171, 137, 204);
     border-radius: 20px;
