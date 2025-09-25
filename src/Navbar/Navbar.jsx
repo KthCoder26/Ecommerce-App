@@ -16,7 +16,7 @@ const Navbar = ({ openCart, opencart, NumberofProduct, openSuggestions, listofPr
                     ))}</ul>}
             </div>
             <div className="shopping-cart-icon" onClick={() => openCart()}>
-                <FaCartShopping className='icon' />
+                {opencart ? <FaCartShopping className='oc-icon' /> : <FaCartShopping className='icon' />}               
                 {/* <i className="ri-shopping-cart-2-line" style={{ opacity: opencart ? 0.4 : 1 }}></i> */}
                 {NumberofProduct > 0 && <h6 style={{ opacity: opencart ? 0.4 : 1 }}>{NumberofProduct}</h6>}
             </div>
