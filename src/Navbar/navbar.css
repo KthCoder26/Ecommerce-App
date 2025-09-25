@@ -71,6 +71,12 @@ nav {
     color: rgb(251, 251, 6);
 }
 
+.oc-icon {
+    font-size: 60px;
+    cursor: pointer;
+    color: rgb(251, 251, 6);
+    opacity: 0.3;
+}
 .shopping-cart-icon h6 {
     height: 50%;
     width: 35px;
